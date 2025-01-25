@@ -1,0 +1,93 @@
+body{
+    background-image: url(img/2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 25px;
+}
+
+form{
+    padding: 50px 55px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    text-align: center;
+    width: 340px;
+    background-color: #757fb2;
+}
+
+form h2 {
+    color: #14f9ad;
+    font-size: 25px;
+
+}
+
+.form-txt{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-txt a{
+    color: #ffffff;
+    text-decoration: note;
+    font-size: 15px;
+    margin-bottom: 25px;
+
+}
+
+.form-txt a:hover{
+    color: #14f9a6;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+}
+
+input , textarea {
+    background-color: #818ec6;
+    padding: 20px 14px;
+    margin-bottom: 25px;
+    border: 0;
+    border-radius: 10px;
+    font-size: 15px;
+    color: #ffffff;
+}
+
+::placeholder{
+    color: #bfc9f3;
+    font-size: 15px;
+}
+
+:focus{
+    outline: 1px solid #14f9a6;
+}
+
+.btn{
+    background-color: #14f9a6;
+    color: #146031;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #14f9a6;
+}
+
+@media(max-widht:991px) {
+    body{
+        padding: 30px;
+    }
+
+    form{
+        width: 100%;
+            
+    }
+}
+
+.efecto-sombra{
+    color: #fff;
+    font-weight: 900;
+    text-shadow: 3px 3px 0px #222, 5px 5px 0px 
+    #ff2044b5;
+    
+}

@@ -152,7 +152,7 @@ header {
 .hero {
     width: 100%;
     height: 70vh;
-    background: url("/img/a.jpg") center no-repeat;
+    background: url("/img/ApurePortada.jpg") center no-repeat;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -162,10 +162,10 @@ header {
 .h2-sub {
     font-size: 3rem;
     font-family: 'Poppins', sans-serif;
-    color: #eeff00;
+    color: #f7ff18cf;
     font-weight: 600;
     line-height: .4;
-    text-shadow: 5px 5px 9px #90918cda
+    text-shadow: 5px 5px 9px #000000c3
 }
 
 .fil {
@@ -215,7 +215,7 @@ header {
 .cta-btn:hover,
 .cta-btn:focus {
     color: #fff;
-    background-color: #ebc108;
+    background-color: #c89900;
 }
 
 
